@@ -4,10 +4,11 @@ print("Bem vindo ao jogo da forca!")
 
 menu = int
 palavras = ["EMPURRE", "ARQUEOLOGIA", "ESPAGUETE", "JARDIM", "ASTRONAUTA", "CINTURA", "SEMEADURA", "UTILIDADE", "LIVRO", "CICRATIZAÇAO"]
-letra_resp = []
-letras_usadas = []
+
 
 def iniciar_jogo(palavras):
+        letra_resp = []
+        letras_usadas = []
         i = randint(0, (len(palavras) - 1))
         resposta = palavras[i]
         print(resposta)
